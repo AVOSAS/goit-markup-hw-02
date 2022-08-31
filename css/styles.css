@@ -1,0 +1,98 @@
+:root {
+--primary-text-color: #212121;
+--secondary-text-color: #000000;
+--text-color: #757575;
+--text-white: #FFFFFF;
+--accent-color: #2196F3;
+
+--primary-bg-color: #FFFFFF;
+--secondary-bg-color: #2F303A; 
+}
+
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-color: var(--primary-bg-color);
+    color: var(--primaru-text-color);
+}
+
+ul {
+    list-style: none;
+}
+
+.title {
+     color: var(--primary-text-color);
+}
+/* Шапка сторінки */
+.logo {
+    color: var(--secondary-text-color);
+}
+
+.link {
+    color: var(--primary-text-color);
+}
+
+.link:hover, 
+.nav-contact a:hover,
+.link:focus,
+.nav-contact a:focus {
+    color: var(--accent-color);
+}
+
+.nav .link.current {
+    color: var(--accent-color);
+}
+
+.nav-contact a {
+    color: var(--text-color);
+}
+/* Головний розділ */
+
+/* Основний */
+.main {
+    background-color: var(--secondary-bg-color)
+}
+
+.main-title {
+    color: var(--text-white);    
+}
+
+.main-button {
+    background: var(--accent-color);
+    color: var(--text-white);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+/* Особливості */
+.peculiarity p {
+    color: var(--text-color);
+}
+
+/* Наша команда  */
+.team-list p {
+    color: var(--text-color);
+}
+/* Підвал сторінки */
+.footer {
+    background-color: var(--secondary-bg-color);
+}
+
+.footer-logo, 
+.footer-address {
+    color: var(--text-white);
+}
+
+.footer-contact {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+#2F303A
+
+#2196F3
+
+color: rgba(255, 255, 255, 0.6);
+
