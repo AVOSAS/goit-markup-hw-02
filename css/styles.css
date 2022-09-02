@@ -107,6 +107,7 @@ ul {
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.06em;
+    cursor: pointer;
 }
 
 /* Особливості */
@@ -128,26 +129,16 @@ ul {
 }
 
 /* Чим ми займаємося */
-.case {
-    align-items: center;
-    text-align: center;
-}
 
 .case-title,
 .team-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.67;
-    text-align: center;
+    line-height: 1.67;    
     letter-spacing: 0.03em;
 }
 
 /* Наша команда  */
-
-.team {
-    align-items: center;
-    text-align: center;
-}
 
 .time-name {
     font-weight: 500;
