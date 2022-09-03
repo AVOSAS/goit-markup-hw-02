@@ -164,6 +164,13 @@ ul {
     color: var(--text-white);
 }
 
+.footer-address {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em
+}
+
 .footer-logo {
     font-weight: 700;
     font-size: 26px;
@@ -173,6 +180,10 @@ ul {
 
 .footer-contact {
     color: rgba(255, 255, 255, 0.6);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
 }
 
 /* Портфоліо */
